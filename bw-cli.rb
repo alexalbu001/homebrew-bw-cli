@@ -7,7 +7,8 @@ class BwCli < Formula
     version "v0.5.0"
   
     def install
-      bin.install "bw-cli"
+      # Rename the binary during installation
+      bin.install "bw-cli-darwin-arm64" => "bw-cli"
     end
   
     test do
