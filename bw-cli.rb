@@ -1,10 +1,10 @@
 class BwCli < Formula
     desc "CLI tool to manage ECS services and modify desired counts"
     homepage "https://github.com/alexalbu001/bw-cli"
-    url "https://github.com/alexalbu001/bw-cli/releases/download/v0.3.0/bw-cli.tar.gz"
-    sha256 "64eb815a9911c592749086e9540f21378a26bb6ad33c7779413f1b9c681b7936"
+    url "https://github.com/alexalbu001/bw-cli/releases/download/v0.4.0/bw-cli-arm64.tar.gz"
+    sha256 "17a39a0f81a639af0a91dcf8146d01f36a52468b40c0f77b70cd2431a9e34ef5"
     license "MIT"
-    version "v0.3.0"
+    version "v0.4.0"
   
     def install
       bin.install "bw-cli"
